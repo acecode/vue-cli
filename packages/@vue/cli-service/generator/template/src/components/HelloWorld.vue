@@ -9,9 +9,11 @@
     </p>
     <h3>Installed CLI Plugins</h3>
     <ul>
+      <!-- eslint-disable max-len -->
       <%_ for (plugin of plugins) { _%>
       <li><a href="<%- plugin.link %>" target="_blank" rel="noopener"><%- plugin.name %></a></li>
       <%_ } _%>
+      <!-- eslint-enable -->
     </ul>
     <h3>Essential Links</h3>
     <ul>
